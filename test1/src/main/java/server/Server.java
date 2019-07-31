@@ -13,7 +13,7 @@ public class Server {
             Naming.rebind("rmi://127.0.0.1/Hello",helloService);
             System.out.println("服务启动成功");
         } catch (RemoteException e) {
-              new RuntimeException("嘿嘿嘿 阿萨德法师法规");
+              new RuntimeException("嘿嘿嘿 法规");
         } catch (MalformedURLException e) {
             e.printStackTrace();
         }
