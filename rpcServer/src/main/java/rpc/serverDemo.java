@@ -6,6 +6,6 @@ public class serverDemo {
         RpcServer rpcServer = new RpcServer();
         //发布服务 应用和端口号
         rpcServer.publisher(iGPHello,8000);
-        System.out.println("git revert Test");
+        System.out.println("git revert Test    asdf ");
     }
 }
