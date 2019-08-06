@@ -6,5 +6,6 @@ public class serverDemo {
         RpcServer rpcServer = new RpcServer();
         //发布服务 应用和端口号
         rpcServer.publisher(iGPHello,8000);
+        System.out.println("test commit 之后的 revert");
     }
 }
